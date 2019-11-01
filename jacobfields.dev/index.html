@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jacob Fields - You think it, I build it</title>
+        <!-- Import Google Icon Font -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import CSS-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link type="text/css" rel="stylesheet" href="css/other.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- slide out navigation -->
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view center-align">
+                <div class="background">
+                    <img src="images/galaxy.jpg" alt="galaxy picture">
+                </div>
+                <a href="#main" class="sidenav-close"><img class="circle" src="images/me.jpg" alt="little me"></a>
+                <span class="white-text name">Jacob Fields</span>
+                <a href="mailto:s@jacobfields.dev"><span class="white-text email"><!--s@jacobfields.dev-->sjacobfields@gmail.com</span></a>
+            </div></li>
+            <li><a href="#about" class="waves-effect sidenav-close"><i class="material-icons">account_circle</i>Who am I?</a></li>
+            <li><a href="#education" class="waves-effect sidenav-close"><i class="material-icons">import_contacts</i>Education</a></li>
+            <li><a href="#programming" class="waves-effect sidenav-close"><i class="material-icons">library_books</i>Technologies</a></li>
+            <li><a href="#projects" class="waves-effect sidenav-close"><i class="material-icons">create_new_folder</i>Projects/Accomplishments</a></li>
+            <!--Repeat this for addition spots -->
+        </ul>
+        
+        <!-- trigger for slide out -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+        
+        <!-- purple action/navigation button -->
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large purple">
+                <i class="large material-icons">contacts</i>
+            </a>
+            <ul>
+                <li><a href="https://twitter.com/SJacobFields" target="_blank" class="btn-floating blue lighten-2 pulse"><i class="devicon-twitter-plain"></i></a></li>
+                <li><a href="https://github.com/Neronic" class="btn-floating purple darken-2 pulse" target="_blank"><i class="devicon-github-plain"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sjacobfields/" target="_blank" class="btn-floating blue accent-3 pulse"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="files/JacobFields.pdf" target="_blank" class="btn-floating black pulse"><i class="material-icons">description</i></a></li>
+            </ul>
+        </div>
+        
+        <!-- top -->
+        <div class="valign-wrapper scrollspy" id="main">
+            <div class="row center-align">
+                <div class="col s12">
+                    <h1>Jacob Fields</h1>
+                    <span id="textGen" class="textGen"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!--about -->
+        <div class="valign-wrapper scrollspy" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12"><h2 class="center-align">Who am I?</h2></div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <h5>Interested</h5>
+                        <p>Ever since I was a young child technology has always had its grip on me. From tearing apart too many VCR's (sorry mum) to "borrowing" my step fathers Commodore 64 came a genuine interest in computers. The desire to understand how to make a computer perform various tasks is what led me to programming.</p>
+                    </div>
+                    <div class="col s12 m4">
+                        <h5>Obsessed</h5>
+                        <p>Simply knowing how to write code will never be enough for me. I'm always trying to further my understanding and skills for no other purpose than to show myself how proficient I can truly be. This of course translates into my work and providng the best end result possible. I would describe myself as a Learn-it-all person. </p>
+                    </div>
+                    <div class="col s12 m4">
+                        <h5>Flexible</h5>
+                        <p>No one understands more than I do that tastes can change. My end goal is to deliver something that can truly be appreciated it. Good simply isn't good enough, and so we must strive for greatness.</p>
+                    </div>
+                </div>
+                <!--<div class="divider"></div>--><br>
+                <!--counter section with parallax background -->
+                <div class="parallax-container" id="counter">
+                    <div class="section no-pad-bot">
+                        <div class="container">
+                            <br><br><br>
+                            <div class="row center-align">
+                                <div class="col s3">
+                                    <span class="number-counter" data-count-from="0" data-count-to="436" data-count-speed="150"></span><br>
+                                    <span class="number-counter-label">Cups of tea</span>
+                                </div>
+                                <div class="col s3">
+                                    <span class="number-counter" data-count-from="0" data-count-to="1048" data-count-speed="150"></span><br>
+                                    <span class="number-counter-label">Cups of coffee</span>
+                                </div>
+                                <div class="col s3">
+                                    <span class="number-counter" data-count-from="500" data-count-to="10534" data-count-speed="1800"></span><br>
+                                    <span class="number-counter-label">Lines of code</span>
+                                </div>
+                                <div class="col s3">
+                                    <span class="number-counter" data-count-from="0" data-count-to="3" data-count-speed="1.8"></span><br>
+                                    <span class="number-counter-label">Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parallax"><img src="images/paralaxbackground.jpg" alt="parallax background"></div>
+                </div><br>
+                <!--<div class="divider"></div>-->
+            </div>
+        </div><br>
+        
+        <!-- education -->
+        <div class="valign-wrapper scrollspy" id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center-align">Education</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <h2 class="header blue-text text-darken-2">Niagara College</h2>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="images/ncc_logo.jpg" alt="NCC_logo">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <sub>Graduated June 2019</sub>
+                                <p>Successfully completed the Computer Programmer course.</p><br>
+                                <p>Niagara college taught me a lot of different skills and languages that I'm happy to call my own. It was here that I was able to not only advance my pre-existing knowledge on technologies I already knew, but also learn languages I hadn't even touched. It was also here that I fell in love with Java.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.niagaracollege.ca/media-studies/programs/computer-programmer/" target="_blank">View the course here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col s12">
+                    <h2 class="header green-text text-darken-4">freeCodeCamp</h2>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="images/freecodecamp_logo.png" alt="freeCodeCamp_logo">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>freeCodeCamp is a great online resource for beginners to start their web development journey or for experienced developers to hone their skills. They provide easy to follow guides and challenges for each subject. At the end of each course they provide a series of "tests" that upon proper completion grant you a certificate to show the knowledge you've gained in the course.</p><br>
+                                <p>Whenever I've got some spare time I'll usually head over there to plug away at the courses. I'm happy to say that even completing just a few of the guides has helped me correct a fair amount of bad habits I'd acquired over the years.</p>
+                                <!-- Add link to profile here -->
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.freecodecamp.org" target="_blank">Visit their website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col s12">
+                    <h2 class="header blue-text text-darken-3">RCC Institute of Technology</h2>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="images/rcc_logo.jpg" alt="RCC_logo">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>At RCC I studied Game Design and Development. It covered many aspects of the process such as creating a storyboard, developing sounds from scratch, using game engines, and programming for games on different platforms.</p><br>
+                                <sub>RCC is now a branch of York U.</sub>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- technologies-->
+        <div class="valign-wrapper scrollspy" id="programming">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center-align">Technologies</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="center-align">Languages and Frameworks</h4>
+                    </div>
+                </div>
+                <div class="row center-align">
+                    <!--Put languages here -->
+                    <div class="col s3">
+                        <i class="devicon-html5-plain colored"></i>
+                        HTML<br>
+                        6+ Years
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-css3-plain colored"></i>
+                        CSS<br>
+                        6+ Years
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-javascript-plain colored"></i>
+                        JavaScript<br>
+                        1.5 Years
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-csharp-plain colored"></i>
+                        C#<br>
+                        3+ Years
+                    </div>
+                </div>
+                <div class="row center-align">
+                    <div class="col s3">
+                        <i class="devicon-java-plain colored"></i>
+                        Java<br>
+                        1 Year
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-dot-net-plain colored"></i>
+                        ASP.NET Core<br>
+                        2 Years
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <h4 class="center-align">Operating Systems and Software</h4>
+                    </div>
+                </div>
+                <div class="row center-align">
+                    <div class="col s3">
+                        <i class="devicon-windows8-original colored"></i>
+                        Windows<br>
+                        10+ Years
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-apple-original colored"></i>
+                        Mac and iOS<br>
+                        4 and 8 Years (respectively)
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-linux-plain colored"></i>
+                        Linux<br>
+                        2 Years
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-photoshop-plain colored"></i>
+                        Photoshop<br>
+                        4 Years
+                    </div>
+                </div>
+                <div class="row center-align">
+                    <div class="col s3">
+                        <i class="devicon-android-plain colored"></i>
+                        Android<br>
+                        2 Years
+                    </div>
+                    <div class="col s3">
+                        <i class="devicon-mysql-plain colored"></i>
+                        MySQL<br>
+                        2 Years
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- projects section -->
+        <div class="valign-wrapper scrollspy" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center-align">Projects and Accomplishments</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">UWP App with Cortana</span>
+                                <p>This was my final assignment for my Windows Mobile Development class. The app is a simple list application with Cortana integration. There is a list of voice commands supplied with the project.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">Pokemon Web API & Client</span>
+                                <p>This is a simple WebAPI with working Client that gives users basic CRUD operations. It features dynamic sorting and proper navigation.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">TRPR - Community Sponsored Project</span>
+                                <p>This group-project was designed using MVC Core. The users are allowed to do various tasks depending on their role. Users have the option of uploading papers for revision. Users also have the option of commenting on papers, editing them, and updating the status of the submitted paper - all based on role.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/Neronic/TPRP" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">Python Bottle Final Assignment</span>
+                                <p>A simple Python assignment using Bottle technology. It outputs a simple beer list that by default sorts by Brewery Name then by Beer Name. Allows editing of beers and their flavours. Also offers the choice to filter output by column headers.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/Neronic/Python-Lab-5" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">Emma's autobody project</span>
+                                <p>A simple web app to be used by a company internally. This group-project was done using the RAD approach. Users can submit, update, and complete orders and repairs.</p><br>
+                                <sub>The original host of the project has since taken down the repository. This was the last working version. All files were copied over.</sub>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/Neronic/RADwebapp" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">Natural by Design</span>
+                                <p>One of the earliest projects I was given was to create a small web application to be used by employees of the company. The application dynamically selected the views and actions available to the user based on the credentials of the account. It allowed employees to upload and review sketches, logs, and any other important documents. Management and Admins had the options to approve or deny the documents uploaded.</p>
+                                <sub>Unfortunately I don't have the source code for the project.</sub>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">freeCodeCamp</span>
+                                <p>freeCodeCamp displays user progress/contribution similar to how GitHub tracks contributions to repositories. They also offer certifications for completing their courses and allow the users to display said certifications on their profile.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.freecodecamp.org/neronic" target="_blank">View my profile.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col s6">
+                        <div class="card blue-grey">
+                            <div class="card-content white-text">
+                                <span class="card-title yellow-text">[Insert_Name] Studios <br><sub>Co-Founder</sub></span>
+                                <p>[Insert_Name] Studios is a small company created for the sole purpose of creating games from scratch. We currently have one project being developed using the Unity engine.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.insertnamestudios.com" target="_blank">View our website.</a>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--JavaScript at the end of body for optimized loading-->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/otherjs.js"></script>
+        <script type="text/javascript" src="js/countTo.js"></script>
+    </body>
+</html>

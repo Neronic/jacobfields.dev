@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "jacobfields.dev",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,46 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-html, body{
-    overflow-x: hidden;
-    font-family: 'Nunito', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
 }
 
-.sidenav-trigger{
-    position:fixed;
-    z-index: 9999;
-    top:10px;
-    left:10px;
-    background-color: black;
-    color:white;
-    padding:6px 6px 0.4px 6px;
+.sidenav-trigger {
+  position: fixed;
+  z-index: 9999;
+  top: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  padding: 6px 6px 0.4px 6px;
 }
 
 .circle {
-    margin: auto auto;
+  margin: auto auto;
 }
 
-#main{
-    background: url('../images/me_coding.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    height: 100vh;
-    width:100%;
-    color: white;
+#main {
+  background: url("../images/me_coding.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: white;
 }
 
-.textGen{
-    font-size: 20px;
+.textGen,
+.titleContact {
+  font-size: 20px;
 }
 
-.parallax-container{
-    height:200px;
+.parallax-container {
+  height: 200px;
 }
 
-.number-counter-label, .number-counter{
-    color:white;
-    font-weight: bolder;
+.number-counter-label,
+.number-counter {
+  color: white;
+  font-weight: bolder;
 }
 
-#programming i{
-    display:block;
-    font-size:60px;
+#programming i {
+  display: block;
+  font-size: 60px;
 }
